@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalha Postagem</title>
+    <style>
+        body { font-family: serif; margin: 20px; }
+        label, select { display: block; margin-top: 10px; }
+        select { width: 100%; padding: 8px; margin-bottom: 15px; }
+        .post-item {
+            background-color: #efefef;
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .post-item.selecionado {
+            background-color: #cccccc;
+        }
+        #detalhes-postagem { margin-top: 20px; }
+        .comentario-item { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h2>detalhaPostagem</h2>
+
+    <label for="usuario">Usuário:</label>
+    <select id="usuario">
+        <option value="">Selecione um usuário</option>
+    </select>
+
+    <div id="lista-posts"></div>
+    <div id="detalhes-postagem"></div>
+
+    <script src="03.js"></script>
+</body>
+</html>
