@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar Endereço por CEP</title>
+    <style>
+
+    input, button { margin: 10px 0; padding: 8px; width: 100%; }
+    #resultado { margin-top: 10px; }
+    </style>
+
+<body>
+    <h2>buscaCEP</h2>
+    <input type="text" id="cep-informado" placeholder="Digite o CEP (ex: 01001000)">
+    <input type="button" onclick="buscarCEP()" value="Buscar">
+
+    <p><strong>CEP:</strong> <span id="cep"></span></p>
+    <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+    <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+    <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+    <p><strong>Estado:</strong> <span id="estado"></span></p>
+    <p id="erro" style="color: red;"></p>
+    <script src="aaa2.js"></script>
+</body>
+</html>
